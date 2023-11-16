@@ -1,0 +1,16 @@
+Q2. Explaine the role of the following key properties in the Flexbox layout module.
+1. Justify-content
+2. align-items
+3. flex-direction
+4. gap
+5. flex-wrap
+ Answer : 
+1. justify-content :) The CSS property justify-content is responsible for determining the distribution of space between and around content items along the main-axis of a flex container, as well as the inline axis of a grid container.By utilizing this property, web developers can control the alignment and positioning of elements within their layouts, ensuring a consistent and visually appealing design.Whether working with a flexible or grid-based layout, the justify-content property is a crucial tool for achieving the desired look and feel of a website or application.For example , If you set justify-content: center; , flex items will be centered along with the main axis of container. If you set justify-content:space-between;,  the first item will be aligned to the start the last item to the end and the remaining space will be ditrubuted evenly between the items.
+
+2.align-items:) The align-items property controls the alignment of flex items along with cross axis of the flex container. It specifies how items are positioned within their container along this axis. It accepts values such as flex-start , flex-end, center , baseline and strech. For Example , if you set align-items:center;, flex items will be vertically centered within the container. If you set align-items:strech;, items will expond to fill the entire cross-axis space of the container , ensuring the have the same height.
+
+3.gap:) The gap property is used tpdefine the space between flex items in both directions , both along the main axis and the cross axis . its often applied to the flex container itself. It simplifies spacing and creates consistentgap between items without needing to apply margins to individual items. for example , If you set gap:20px;, there will be a 20 pixel gap between adjcent flex items in both the horizontal and vertical directions , improving the overal spacing and alignment  of items within the container.
+
+4. flex-direction:) The flex-direction property determines the direction in which flex items are place within the flex-container. It defined the main aixs and consequently , the layout flow. It can have values such as row , row-reverse , column or column-reverse.
+
+5. flex-wrap:) The flex-wrap property controls whether flex items are allowed to wrap onto multiple lines within the flex container when the don't fit along the main axis . It accept values like nowrap , wrap and wrap-reverse. For example , If you set flex-wrap:wrap; flex items will wrap to the necxt line when there's not enough space on the current line , creating a multi-line layout . flex-wrap is useful for accommodating various screen sizes and orientations, allowing items to adapt to different viewports and preventing content from getting cut off. 

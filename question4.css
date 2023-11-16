@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+}
+
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(220 220 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 275px;
+    height: 440px;
+    margin: 0 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px black;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 21px;
+}
+
+/* for Card - 1 */
+.card-1 {
+    background-color: white;
+}
+.card-heading {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.card-heading h1 {
+    font-size: 35px;
+}
+.card-heading p {
+    font-size: 17px;
+}
+.price {
+    font-size: 50px;
+}
+.card-heading h1 {
+    font-size: 35px;
+}
+.offers {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.offers p {
+    display: flex;
+    align-items: center;
+}
+.dark-offers {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.card-1-button {
+    margin-top: 12px;
+}
+.btn {
+    background-color: rgb(21 21 43 / 85%);
+    border: 2px solid rgb(21 21 43 / 85%);
+    color: white;
+    margin: 11px 48px;
+    padding: 12px 27px;
+    border-radius: 43px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* For Card - 2 */
+.card-2 {
+    background-color: rgb(21 21 43 / 85%);
+}
+.dark-span {
+    color: white;
+}
+.dark-offers p {
+    display: flex;
+    align-items: center;
+}
+.dark-card-heading p {
+    font-size: 17px;
+    color: white;
+    
+}
+.dark-card-heading h1 {
+    font-size: 35px;
+    color: white;
+}
+
+.dark-card-heading {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.dark-price {
+    font-size: 50px;
+    color: white;
+}
+.dark-card-1-button {
+    margin-top: 12px;
+}
+.dark-btn {
+    background-color: white;
+    cursor: pointer;
+    color: rgb(21 21 43 / 85%);
+    margin: 11px 48px;
+    padding: 12px 27px;
+    border-radius: 43px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+/* For Card-3 */
+.card-3 {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
